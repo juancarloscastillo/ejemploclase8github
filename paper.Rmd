@@ -1,0 +1,57 @@
+---
+title: "Ejemplo Artículo"
+output:
+  html_document:
+#    toc: true
+#    toc_float: TRUE
+#    code_folding: hide
+     highlight: tango
+     number_sections: TRUE
+bibliography: "input/bib/referencias.bib"
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=TRUE, echo=FALSE, warning = FALSE)
+Sys.setlocale("LC_ALL", "ES_ES.UTF-8")
+```
+
+
+
+# Introducción
+
+Solo para mostrar algunas tablas y gráficos
+
+
+# Descriptivos
+
+```{r include=FALSE}
+pacman::p_load(dplyr, #Manipulacion de datos
+              stargazer, #Tablas
+              sjmisc, # Tablas
+              summarytools, # Tablas
+              kableExtra, #Tablas
+              sjPlot, #Tablas y gráficos
+              corrplot, # Correlaciones
+              sessioninfo) #
+
+load("input/data/proc/ELSOC_ess_merit2016.RData") #Cargar base de datos
+```
+
+Aquí una tabla descriptiva
+
+```{r echo=FALSE}
+print(dfSummary(proc_elsoc, headings = FALSE), method = "render")
+```
+
+Y aquí un gráfico
+
+```{r warning=FALSE}
+plot_grpfrq(proc_elsoc$pmerit,proc_elsoc$edcine,
+            type = "box")
+```
+
+
+
+
+

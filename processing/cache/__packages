@@ -1,0 +1,13 @@
+base
+ezknitr
+dplyr
+sjmisc
+carData
+car
+sjlabelled
+stargazer
+summarytools
+kableExtra
+sjPlot
+corrplot
+sessioninfo

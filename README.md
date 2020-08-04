@@ -1,12 +1,3 @@
-# ejemploclase8github
-archivos ejemplo clase
+# IPO Ejemplo mínimo
 
-probando cambios locales
-
-probando cambios en remoto *Github*
-
-## Un título
-
-cambio desde osf
-
-cambio2 
+Este es un ejemplo mínimo de un proyecto IPO. Se utilizan datos de la encuesta ELSOC para analizar percepción de meritocracia.
