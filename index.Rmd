@@ -8,6 +8,7 @@ Hola, este es un ejemplo de sitio web de un proyecto de investigación.
 
 La estructura está organizada en base al [Protocolo IPO]()
 
+cambio
+
 
 El sitio está generado por Jekyll en Github Pages a partir de archivos RMardown. Más información sobre Rmarkdown websites [aquí](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html).
-
